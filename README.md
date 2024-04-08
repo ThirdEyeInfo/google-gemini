@@ -4,7 +4,8 @@
 - Type anaconda on windows search and open anaconda command prompt
 - Navigate to mcqgen progect (in step 1) from conda prompt and/by follow below commands
     * cd <basepath>/google-gemini
-    * conda create -p env python=3.11 -y
+    * conda create -n google-gemini python=3.11 -y
+    * conda activate google-gemini
     * pip install -r requirement.txt
 - Create a file with name '.env' in google-gemini folder
 - Add below line in .env file
